@@ -1,76 +1,40 @@
-.logo{
-    color: white;
-    display: flex;
-    justify-content: start;
-    padding-left: 40px;
-    padding-right: 20px;
-    transition: text 1s;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.logo:hover{
-    transform: scale(1.6);
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
 }
 
-
-
-a:link, a:visited {
-    background-color: white;
-    color: black;
-    border: 2px solid green;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  a:hover, a:active {
-    background-color: green;
-    color: white;
-  }
-
-.main-nav{
-    display: flex;
-    background-color: black;
+button{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  border-radius: 12px;
+  transform: translate(-50%, -50%);
 }
 
-.main-nav:hover{
-    box-shadow: 5px 4px 5px 4px rgba(24, 5, 5, 0.3);
-    
+.main:hover{
+  color: black;
+  background-color: white;
 }
 
-ul{
-    display: flex;
-    justify-content: center;
-}
-
-li {
-    display: inline-block;
-    margin-left: 50px;
-    padding-left: 30px;
-}
-
-.form-style{
-   position: absolute;
-   padding: 20px 20px;
-   top: 20%;
-   left: 35%;
-   border-style: solid;
-   border-width: 5px;
-   border-color: grey;
-}
-
-.button-style {
-    display: flex;
-    justify-content: space-around;
-  }
-
-.button-style button{
-    color: Black;
-    background-color: white;
-    padding: 5px 35px;
-    border-color: green;
-}
-
-.button-style>button:hover{
-    background-color: Green;
+.main{
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
 }
